@@ -154,5 +154,6 @@ Functions/Methods:
 4. Attendance Retrieval
    - getAttendanceRecords(student: Student): AttendanceRecord[]
 
-
+# Using a Database
+There's no database yet
 
