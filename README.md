@@ -66,7 +66,62 @@ Git Process:
 we will inform all the team members whenever someone wants to push or pull on the repo.moreover, all members will review each others work
 
 
+# User Stories
+Title: User Login
+User Story Sentence: As a registered user, I want to be able to log in to my account to access the platform's features and functionalities.
+Feature Tasks:
+1. Implement a login form with fields for username/email and password.
+2. Validate user inputs for correct formatting and required fields.
+3. Verify the user's credentials against the stored user information in the database.
+4. Provide appropriate feedback to the user upon successful login.
+5. Store session or authentication tokens to keep the user logged in during their browsing session.
 
+Acceptance Tests:
+1. Enter valid login credentials and ensure successful authentication and redirection to the user's dashboard or main page.
+2. Attempt login with incorrect credentials and verify appropriate error messages are displayed.
+3. Test the login process with both username and email options to ensure both work correctly.
+4. Check that the user remains logged in when navigating through different pages or performing actions within the platform.
+5. Log out from the user account and confirm that the user is successfully logged out and redirected to the login page.
+
+Title: Create a Task
+User Story Sentence: As a user, I want to be able to create a task and provide essential details for tracking my work.
+Feature Tasks:
+1. Design and implement a task creation form with fields for title, description, and due date.
+2. Validate user inputs for required fields and appropriate formatting.
+3. Store the created task in the database, associating it with the user's account.
+4. Display the created task in the user's task list or dashboard.
+5. Provide confirmation or feedback to the user upon successful task creation.
+
+Acceptance Tests:
+1. Fill in the task creation form with all required details and verify that the task is successfully created and saved in the database.
+2. Attempt to create a task without providing the required information and ensure appropriate error messages are displayed.
+3. Check that the created task appears in the user's task list or dashboard, displaying the correct details.
+4. Edit the created task and confirm that the changes are saved and reflected in the task details.
+5. Delete the task and verify that it is removed from the user's task list or dashboard.
+
+Title: View Task Details
+User Story Sentence: As a user, I want to be able to view the details and status of a task to understand its requirements and progress.
+Feature Tasks:
+1. Implement a task details page or modal to display task-specific information.
+2. Show the task's title, description, due date, assigned user, and status.
+3. Provide an option to view additional details or comments related to the task.
+4. Allow the user to navigate back to the task list or dashboard after viewing the task details.
+
+Acceptance Tests:
+1. Click on a task from the task list or dashboard and ensure that the task details page/modal opens.
+2. Verify that the task details page/modal displays the correct title, description, due date, assigned user, and status.
+3. Test the functionality to view additional details or comments related to the task and ensure they are displayed correctly.
+4. Navigate back to the task list or dashboard from the task details page/modal and confirm that the user is returned to the previous view.
+
+Title: Update Task Status
+User Story Sentence: As a user, I want to be able to update the status of a task to reflect its progress or completion.
+Feature Tasks:
+1. Provide a visual representation or selection options for task status (e.g., "In Progress," "Completed," "Pending," etc.).
+2. Allow the user to change the status of a task by selecting the appropriate option.
+3. Update the task's status in the database and reflect the change in the user's task list or dashboard.
+4. Provide feedback or confirmation to the user upon successful status update
+
+# Software Requirements
 
 
 
