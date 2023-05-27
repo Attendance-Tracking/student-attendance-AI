@@ -120,8 +120,39 @@ Feature Tasks:
 2. Allow the user to change the status of a task by selecting the appropriate option.
 3. Update the task's status in the database and reflect the change in the user's task list or dashboard.
 4. Provide feedback or confirmation to the user upon successful status update
-
 # Software Requirements
+[requirements](./requirements.md)
+# Domain Modeling
+Entities:
+1. Student
+   - Properties:
+     - ID (int)
+     - Name (string)
+     - FaceImage (image or byte array)
+     - AttendanceRecords (list of AttendanceRecord)
+
+2. AttendanceRecord
+   - Properties:
+     - ID (int)
+     - Student (Student)
+     - Timestamp (datetime)
+
+Relationships:
+- Each Student can have multiple AttendanceRecords (one-to-many relationship)
+- Each AttendanceRecord is associated with one Student (many-to-one relationship)
+
+Functions/Methods:
+1. Student Registration
+   - registerStudent(name: string, faceImage: image or byte array): Student
+
+2. Face Recognition
+   - recognizeFace(faceImage: image or byte array): Student
+
+3. Attendance Recording
+   - recordAttendance(student: Student): AttendanceRecord
+
+4. Attendance Retrieval
+   - getAttendanceRecords(student: Student): AttendanceRecord[]
 
 
 
