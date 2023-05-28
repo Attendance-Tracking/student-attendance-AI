@@ -1,7 +1,8 @@
 # `Attendance Tracking`
+![56387](https://github.com/Team3python/student-attendance-AI/assets/60603704/004e5e05-f289-4a82-bd1d-17f7bcb756b1)
 
 ## Introduction
-In today's technologically advanced era, traditional attendance tracking methods can be time-consuming and prone to errors. To address this, our organization has developed a sophisticated system that utilizes facial recognition technology to accurately count attendance while prioritizing privacy. This system aims to streamline attendance management processes, enhance efficiency, and respect the privacy concerns of individuals, particularly in conservative societies. This article provides an overview of our facial recognition-based attendance system, highlighting its key features and privacy-preserving mechanisms.
+In today's technologically advanced era, traditional attendance tracking methods can be time-consuming and prone to errors. To address this, our team has developed a sophisticated system that utilizes facial recognition technology to accurately count attendance while prioritizing privacy. This system aims to streamline attendance management processes, enhance efficiency, and respect the privacy concerns of individuals, particularly in conservative societies. This article provides an overview of our facial recognition-based attendance system, highlighting its key features and privacy-preserving mechanisms.
 
 ## Facial Recognition Technology
 Facial recognition technology is a cutting-edge solution that enables the identification and verification of individuals based on unique facial characteristics. Our attendance system harnesses this technology to provide a seamless and secure way for individuals to register their presence.
