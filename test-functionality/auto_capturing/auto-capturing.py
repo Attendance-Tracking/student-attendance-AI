@@ -1,6 +1,5 @@
 import cv2
 import time
-
 # Initialize variables
 img_counter = 0
 capture_images = False
