@@ -1,12 +1,12 @@
 {%extends "layout.html"%}
 {% block content%}
-<div class="container mt-auto align-items-center">
+<div class="container mt-5 align-items-center ">
     <form action="" method="POST"> 
         <!-- POst = http method , thats mean we will post thea data that inside this form for our rout that inside action but if the action is empty will do post in the same rout that we are inside it (register)  -->
         {{ form.hidden_tag()}}
         <!-- this is an attribute from form instence to protect  the form (that cant allowed the user to put any info that make the web-site in danger )  -->
 <!-- fname,lname ,.... todo ---( this from forms =.py) -->
-        <fieldset class="form-group">
+        <fieldset class="form-group ">
             <!-- fieldset to do a lot of filed that we need like user name ,last name ,email ,pass ,username  -->
             <legend class="border-bottom mb-4"> Create an Account</legend>
             <!-- legend is :the  title of the form -->
